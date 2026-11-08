@@ -1,4 +1,4 @@
-# 🚀 Global Space Missions: Environmental Impact Analysis and Prediction
+ # 🚀 Global Space Missions: Environmental Impact Analysis and Prediction
 
 **An Introduction to Data Science project** using Python, exploratory data analysis, machine learning classification, and an interactive Streamlit dashboard.
 
@@ -114,10 +114,15 @@ Global-Space-Missions-Environmental-Impact-Analysis/
 │   └── Global_Space_Mission.ipynb
 │
 ├── screenshots/
-│   └── .gitkeep
+│   ├── 01-overview-dashboard.png
+│   ├── 02-countries-and-technology.png
+│   ├── 03-mission-analysis.png
+│   ├── 04-data-explorer.png
+│   ├── 05-countries-and-technology-filtered.png
+│   └── 06-overview-filtered.png
 │
 ├── docs/
-│   └── .gitkeep
+│   └── Dashboard documentation PDFs
 │
 ├── README.md
 ├── requirements.txt
@@ -129,8 +134,8 @@ Global-Space-Missions-Environmental-Impact-Analysis/
 - `app/`: Streamlit dashboard source code.
 - `data/`: CSV dataset used by the project.
 - `notebooks/`: Jupyter Notebook containing the data science workflow.
-- `screenshots/`: Reserved for dashboard screenshots that will be added separately.
-- `docs/`: Reserved for project reports or supporting documents that will be added separately.
+- `screenshots/`: Dashboard screenshots showing the Overview, Countries & Technology, Mission Analysis, Data Explorer, and filtered dashboard views.
+- `docs/`: Dashboard documentation PDF files and supporting project documents. Keep the final, clearly named PDF here and remove obsolete draft copies when you have confirmed which version is final.
 - `requirements.txt`: Python packages required to run the notebook and dashboard.
 - `.gitignore`: Excludes virtual environments, caches, and local secrets.
 
@@ -245,6 +250,12 @@ Run the Streamlit application to explore the dataset through four sections.
 - Review dataset quality information.
 
 All dashboard charts and tables respond to the sidebar filters.
+
+### Dashboard screenshots and documentation
+
+The `screenshots/` folder contains six captured views of the dashboard, including the main sections and examples of filtered results.
+
+The `docs/` folder contains PDF documentation for the dashboard. For a clean final submission, keep the approved final PDF and give it a clear filename such as `Global_Space_Missions_Dashboard_Documentation.pdf`. If multiple draft PDFs are retained, label them clearly as drafts or versions.
 
 ## Installation
 
