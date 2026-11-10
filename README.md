@@ -304,7 +304,7 @@ pip install -r requirements.txt
 Run this command from the repository root directory:
 
 ```bash
-streamlit run app/app.py
+python -m streamlit run app/app.py
 ```
 
 Open the local URL printed in the terminal, usually:
